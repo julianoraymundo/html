@@ -1,0 +1,21 @@
+<?php
+    $db = mysqli_connect('187.85.132.121','root','g2netsulg2@','radius');
+?>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cadastro de cliente Radius</title>
+		<h1>Cadastro de cliente - Radius</h1>
+	</head>
+	<body>
+		<form method="get">
+				Nome:      <input type="text" name="nome"><br>
+				Usuario:   <input type="text" name="usuario"><br>
+				Senha:     <input type="text" name="senha"><br>
+				Plano:     <input type="text" name="plano"><br>
+				MAC:       <input type="text" name="mac"><br>
+				IP Valido: <input type="text" name="ip_valido"> Sim <input type="checkbox"> Não <input type="checkbox"><br><br>	
+				<button type="button">Gravar</button><br>   
+		</form>
+	</body>
+</html>
